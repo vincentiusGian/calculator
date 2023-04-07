@@ -48,13 +48,13 @@ function App() {
   return (
     <div className="App grid h-screen place-items-center bg-gradient-to-r from-violet-500 to-fuchsia-500">
 <div className="avatar block justify-center">
-  <h1 className="block mt-3 font-mono text-lg text-base-100 text-5xl text-center">Happy Cheating!;</h1>
+  <h1 className="block mt-3 font-mono text-base-100 text-5xl text-center">Happy Cheating!;</h1>
 </div>
 <div className="card w-72 h-96 shadow-xl bg-purple-950">
   <div className="card-bodys">
     <h2 className="card-title bg-purple-950 text-white flex justify-center">G Calculator</h2>
   </div>
-  <div className="result grid justify-items-end bg-purple-700 h-auto text-white">
+  <div className="result grid justify-items-end bg-purple-700 h-auto text-white mr-2">
   {calc || 0} {result ? <span className="text-slate-300">({result})</span> : '' }
   </div>
   <div className="flex justify-center space-x-3 bg-purple-900 text-white font-medium">
