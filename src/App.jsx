@@ -54,8 +54,8 @@ function App() {
   <div className="card-bodys">
     <h2 className="card-title bg-purple-950 text-white flex justify-center">G Calculator</h2>
   </div>
-  <div className="result grid justify-items-end bg-purple-700 h-auto text-white mr-2">
-  {calc || 0} {result ? <span className="text-slate-300">({result})</span> : '' }
+  <div className="result grid justify-items-end bg-purple-700 h-auto text-white">
+  <span className="mr-2">{calc || 0}</span> {result ? <span className="text-slate-300">({result})</span> : '' }
   </div>
   <div className="flex justify-center space-x-3 bg-purple-900 text-white font-medium">
       <button className="btn-md no-animation" onClick={() => newCalc('+')}>+</button>
