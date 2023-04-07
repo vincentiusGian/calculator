@@ -7,7 +7,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "daisyui": "^2.51.5",
-    "gh-pages": "^5.0.0",
     "homepage": "https://github.com/vincentiusGian/G-Calculator",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -16,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master build",
+    "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.1"
   }
 }

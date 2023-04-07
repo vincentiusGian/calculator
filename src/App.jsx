@@ -70,13 +70,6 @@ function App() {
     <button className="btn btn-md btn-ghost no-animation" onClick={() => newCalc('.')}>.</button>
     <button className="btn btn-md btn-ghost no-animation" onClick={calculate}>=</button>
   </div>
-  <div className="toast toast-end">
-  <div className="alert shadow-lg">
-    <div>
-      <span>Follow me on Instagram! @gianjunius</span>
-    </div>
-  </div>
-  </div>
 </div>
 </div>
   );
