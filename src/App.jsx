@@ -1,6 +1,6 @@
 import {useState} from "react";
 // import Number from "./components/Number";
-import ppic from "./ppic.jpg";
+
 
 
 
